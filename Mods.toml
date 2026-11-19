@@ -1,0 +1,27 @@
+
+modLoader="javafml"
+loaderVersion="[52,)"
+license="MIT"
+
+[[mods]]
+modId="arsenal"
+version="1.0.0"
+displayName="Badeschaf's Arsenal"
+authors="Badeschaf"
+description='''
+A Minecraft technology and gadget mod.
+'''
+
+[[dependencies.arsenal]]
+modId="forge"
+mandatory=true
+versionRange="[52,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.arsenal]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
